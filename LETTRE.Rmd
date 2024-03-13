@@ -1,0 +1,34 @@
+---
+title: "A letter of recommendation for Emi Tanaka"
+author: "Yihui Xie"
+output:
+  pagedown::html_letter:
+    self_contained: false
+links-to-footnotes: true
+paged-footnotes: true
+uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+::: from
+Papa Amadou NIANG\
+ANSD Colobane Cert-volant\
+Email: [papaamadouniang2004\@gmail.com](mailto:papaamadouniang2004@gmail.com){.email}
+:::
+
+Elève ISE ENSAE-Dakar\
+ANSD
+
+::: date
+12 mars 2024
+:::
+
+Monsieur le Directeur Général ,
+
+Etudiant en 2ème de formation en filière ISEP, je me permets de vous transmettre cette correspondance pour solliciter de votre part l’obtention d’un stage d’immersion de 8 semaines dans la période juillet-septembre, dans les services dont vous avez la charge.
+Je dois vous signaler Monsieur le Directeur que dans le cadre de notre formation.
+Nous devons effectuer un stage obligatoire dans une structure relevant du domaine de la statistique. C’est cela qui motive ma demande. Par ailleurs, ce stage me permettra de produire un rapport dont la note de soutenance est prise en compte dans l’évaluation finale. Par ailleurs, il sera pour moi de mettre en pratique l’ensemble des connaissances théoriques acquises à l’école, de mieux comprendre la communication dans l’entreprise et de m’exercer au travail en groupe au sein de vos équipes. Tout en espérant que ma demande sera traitée avec diligence et que votre réponse sera favorable, je vous prie de bien vouloir accepter, Monsieur le Directeur Général, l’expression de ma profonde gratitude.
+
+L'intéressé\
+Papa Amadou NIANG\
+RStudio, PBC
