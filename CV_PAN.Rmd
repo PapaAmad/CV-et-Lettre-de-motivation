@@ -1,0 +1,68 @@
+---
+name: Papa Amadou
+surname: NIANG
+position: "Elève ISE"
+address: "Fass"
+phone: +221 78 169 80 72
+profilepic: PAN.jpg
+email: "papaamadouniang2004@gmail.com"
+github: PapaAmad
+linkedin: Papa Amadou Niang
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Je suis un Data Scientist passionné par l'analyse de données et la résolution de problèmes complexes. J'ai une solide expérience dans la manipulation de données, la modélisation statistique et la visualisation."
+output: vitae::twentyseconds
+---
+
+```{r setup,include=FALSE}
+library(dplyr)
+library(tibble)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+# Some stuff about me
+
+-   Dynamique
+
+-   Efficace
+
+-   Embicieux
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Cycle secondaire", "2019-2021", "LABSY", "Tivaouane",
+  "ISEP1", "2022-2023", "ENSAE", "Dakar",
+  "ISEP2", "2023-2024", "ENSAE", "Dakar"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+
+```
+
+# Compétences
+
+-   Python
+-   VBA
+-   QGIS-ArcGIS
+-   Visualisation de données (ggplot2, matplotlib)
+-   Traitement de données (dplyr, pandas)
+
+# Projets
+
+-   Analyse des ventes de produits
+-   Prédiction du churn client
+
+# Langues
+
+-   Wolof (langue maternelle)
+-   Français (courant)
+-   Anglais (courant)
+
+# Centres d'intérêt
+
+-   Manga
+-   Sport
+-   Voyages
